@@ -1,0 +1,65 @@
+/* ...existing code... */
+.movies_design,.series_design{
+    padding: 15px;
+    background-color: #111;
+}
+.movies_design,.series_design h1{
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 0%;
+}
+
+/* keep backwards-compatible selector (some files used movie-list) */
+.movie-list,
+.series_list{
+    margin-top: 16px;
+}
+
+/* horizontal scroll container */
+.movie_list,.series_list{
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 8px;
+    scrollbar-width: thin;
+}
+
+.movie_grid,.series_grid {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 1rem;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.movie_grid::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.movie_grid {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* keep each card the same size so scrolling is consistent */
+.movie_grid > *{
+    flex: 0 0 180px; /* width of each card */
+    max-width: 180px;
+}
+
+/* scrollbar styling (optional) */
+.movie_list::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.15); border-radius: 4px; }
+.movie_list::-webkit-scrollbar-track { background: transparent !important; }
+/* ...existing code... */
+.scroll_container {
+  overflow-x: auto;
+  display: flex;
+  scroll-behavior: smooth;
+}
+
+.movie_grid {
+  display: flex;
+  gap: 10px;
+}
+
+

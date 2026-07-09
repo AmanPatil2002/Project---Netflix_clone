@@ -1,0 +1,28 @@
+.movies_card{
+    background: '#111';
+    padding: 8;
+    border-radius: 8;
+    width: 100%;
+    height: fit-content;
+}
+.movies_card img{
+    width: 100%;
+    height: 260px;
+    object-fit:contain;
+    border-radius: 4px;
+}
+.movies_card h3{
+    margin: 8px 0 4px;
+    text-align: center;
+    font-size: 18px;
+}
+.movies_card p{
+    color: #aaa;
+    font-size: 13px;
+    text-align: center;
+}
+.movies_card:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s;
+    border: 1px solid #222;
+}

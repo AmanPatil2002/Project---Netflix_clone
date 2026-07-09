@@ -1,0 +1,10 @@
+.movies-page {
+  padding: 20px;
+  background-color: #141414;
+  color: #fff;
+}
+.movies-grid {
+  gap: 20px;
+  height: min-content;
+  justify-content: center;
+}

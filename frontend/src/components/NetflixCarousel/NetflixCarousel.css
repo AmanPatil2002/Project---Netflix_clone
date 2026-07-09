@@ -1,0 +1,22 @@
+
+.carousel-caption {
+    border-radius: 10px;
+    margin-left: -14%;
+    margin-right: -14px;
+    width: 60%;
+}
+.carousel-caption h3 {
+    font-family: 'Netflix Sans', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.carousel-caption p {
+    text-align: left !important;
+    font-family: 'Netflix Sans', sans-serif;
+    padding: 8px;
+    background-color: rgba(0, 0, 0, 0.3);
+    
+    border-radius: 5px;
+}
